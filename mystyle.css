@@ -38,9 +38,4 @@ div.cta {
   border-radius: 50px;
   background-color: rgba(105, 189, 174, 1);
 }
-@media only screen and (max-width: 600px) {
-.preorder{
-  margin:10px;
-  height: 50px;
-}
-}
+
