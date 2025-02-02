@@ -40,6 +40,6 @@ div.cta {
 }
 @media only screen and (max-width: 600px) {
 img{
-  height: 10vh;
+  height: 50px;
 }
 }
