@@ -39,7 +39,8 @@ div.cta {
   background-color: rgba(105, 189, 174, 1);
 }
 @media only screen and (max-width: 600px) {
-img{
+.preorder{
+  margin:10px;
   height: 50px;
 }
 }
