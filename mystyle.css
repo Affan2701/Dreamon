@@ -15,7 +15,8 @@ a {
   align-items: center;
 }
 img {
-  height: 30vh;
+  width: 100%;
+  height: auto;
   margin: 10vh auto 10px auto;
 }
 .launch {
@@ -37,4 +38,7 @@ div.cta {
   text-align: center;
   border-radius: 50px;
   background-color: rgba(105, 189, 174, 1);
+}
+@media only screen and (max-width: 600px) {
+
 }
