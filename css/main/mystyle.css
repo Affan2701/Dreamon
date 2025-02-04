@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body {
+  /* background-color: rgb(255, 251, 245); */
+  max-width: 1500px;
+  margin: auto;
+  outline: 1px solid rgba(163, 163, 163, 0.13);
+  font-family: 'Montserrat', serif;
+}
+.bgcolor {
+  background-color: rgb(255, 251, 245);
+}
+
+/* ------------------------below navbar------------------------------------- */
+.mainbar {
+  background-image: linear-gradient(rgb(255, 251, 245), rgb(255, 255, 255));
+  padding: 10px;
+  position: sticky;
+  top: -5px;
+  z-index: 1;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.t-logo {
+  height: 7vh;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+  left: 1vh;
+  border-radius: 50px;
+  background: #ffffff;
+}
+.options {
+  background-color: white;
+  padding: 3px 10px;
+  margin: 0 5px;
+  position: absolute;
+  right: 10vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.option {
+  padding: 1vh 15px;
+  margin: 5px;
+  background-color: white;
+  color: rgba(91, 88, 88, 1);
+  font-size: 2vh;
+}
+.option:hover {
+  color: #222222;
+}
+/* ------------------above navbar / below headline-------------------------- */
+.headline {
+  height: 30px;
+  background-color: rgba(105, 189, 174, 1);
+  color: rgb(255, 251, 245);
+  height: 7vh;
+  /* border: 1px solid red; */
+}
+/* -------------------above headline / below tagline------------------------ */
+.tagline {
+  text-align: center;
+  max-width: 50vw;
+  margin: 20px auto 0px;
+  font-size: 4vh;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.weare {
+  text-align: center;
+  max-width: 50vw;
+  margin: auto;
+  font-size: 2.3vh;
+  /* border: 1px solid red; */
+}
+.cta {
+  border: 1px solid saddlebrown;
+  height: 4vh;
+  max-width: 6vw;
+  border-radius: 30px;
+  margin: 30px auto 10px;
+}
+/* -----------------  -above tagline / below landing video------------------ */
+.landingscreen {
+  height: 80vh;
+  text-align: center;
+  background: white;
+}
+/* --------------------------------introducing------------------------------- */
+.introducing {
+  position: relative;
+  width: 60vw;
+  height: 75vh;
+  background-color: white;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+  border-top: 1px solid rgba(128, 128, 128, 0.281);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+}
+.introducing:before {
+  content: '';
+  position: absolute;
+  top: 9%;
+  bottom: 9%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+  border-left: 1px solid rgba(128, 128, 128, 0.281);
+  border-right: 1px solid rgba(128, 128, 128, 0.281);
+}
+/* ---------------------------------sleepsound---------------------------------- */
+.headline1 {
+  width: 60vw;
+  /* border: 1px solid #222222; */
+  text-align: center;
+  margin: 30px auto 10px;
+  font-weight: 600;
+  font-size: 4vh;
+}
+b {
+  color: rgba(105, 189, 174, 1);
+  font-weight: 600;
+}
+.stitle {
+  max-width: 25vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.sleepsounds {
+  margin-bottom: 15px;
+}
+.sleepsound img {
+  max-width: 15vw;
+}
+/* ------------------------------------------------------------------------ */
+.sounds {
+  height: 80vh;
+  text-align: center;
+}
+
+.explore {
+  width: 20vw;
+  margin: auto;
+  display: flex;
+  bottom: 2vh;
+  justify-content: center;
+}
+a.cta-button {
+  text-align: center;
+  width: 12vw;
+  height: 3.5vh;
+  font-size: 2.5vh;
+  padding: 2vh 1vw;
+  font-weight: 600;
+  border-radius: 15px;
+  background-color: rgba(209, 234, 230, 1);
+  color: black;
+}
+.vbutton {
+  margin: auto;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 2px;
+}
+a.v-button {
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 9vw;
+  height: 3.5vh;
+  font-size: 2.2vh;
+  padding: 2vh 1vw;
+  font-weight: 600;
+  border-radius: 15px;
+  background-color: rgba(209, 234, 230, 1);
+  color: black;
+}
+.sleepmedia {
+  height: 120vh;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.media {
+  height: 89vh;
+}
+/* -----------------------------------holding------------------------------- */
+.holding {
+  height: 75vh;
+  /* border: 1px solid red; */
+  background: white;
+}
+/* ----------------------------------store---------------------------------- */
+.store {
+  /* border: 1px solid red; */
+  height: 95vh;
+  /* justify-content: center; */
+  /* display: flex; */
+}
+.vari {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.v0,
+.v1 {
+  height: 70vh;
+  /* border: 1px solid rgb(81, 255, 0); */
+  background: white;
+  width: 20vw;
+  margin: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+.v1 {
+  margin: 15px 30px;
+}
+/* ------------------------------feedback-------------------------------------- */
+.feedback {
+  margin: 55px 25px;
+  /* border: 1px solid red; */
+}
+/* ------------------------------about--------------------------------------- */
+.about {
+  margin: 30px auto 10px;
+  background: white;
+  height: 30vh;
+  text-align: center;
+  font-weight: 600;
+  width: 75vw;
+}
+.partner {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.copyrights {
+  /* display: flex;
+  align-items: center; */
+  margin: auto;
+  text-align: center;
+  width: 70vw;
+  padding: 25px;
+  border-top: 1px solid rgb(197, 197, 197);
+}
