@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body {
+  /* background-color: rgb(255, 251, 245); */
+  max-width: 1500px;
+  margin: auto;
+  outline: 1px solid rgba(163, 163, 163, 0.13);
+  font-family: 'Montserrat', serif;
+}
+.bgcolor {
+  background-color: rgb(255, 251, 245);
+}
+
+/* ------------------------below navbar------------------------------------- */
+.mainbar {
+  background-image: linear-gradient(rgb(255, 251, 245), rgb(255, 255, 255));
+  padding: 10px;
+  position: sticky;
+  top: -5px;
+  z-index: 1;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.t-logo {
+  height: 7vh;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+  left: 1vh;
+  border-radius: 50px;
+  background: #ffffff;
+  /* border: 1px solid red; */
+}
+.options {
+  background-color: white;
+  padding: 3px 10px;
+  margin: 0 5px;
+  position: absolute;
+  right: 10vw;
+  display: flex;
+  flex-wrap: nowrap;
+  /* border: 1px solid red; */
+}
+.option {
+  padding: 1vh 15px;
+  margin: 5px;
+  background-color: white;
+  color: rgba(91, 88, 88, 1);
+  font-size: 2vh;
+  /* border: 1px solid red; */
+}
+.option:hover {
+  color: #222222;
+}
+.profile {
+  /* border: 1px solid gray; */
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  right: 5vw;
+  z-index: 1;
+  background: white url(/assets/svg/profile-icon.svg) no-repeat center;
+  opacity: 0.5;
+  margin: 1vw;
+}
+.profile:hover {
+  /* border: 1px solid rgba(105, 189, 174, 1); */
+  background: rgba(255, 255, 255, 0) url(/assets/svg/profile-icon-hover.svg)
+    no-repeat center;
+  opacity: 1;
+}
+.cart {
+  /* border: 1px solid gray; */
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  position: absolute;
+  right: 1vw;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0) url(/assets/svg/cart-icon.svg) no-repeat
+    center;
+  margin: 1vw;
+}
+.cart:hover {
+  background: rgba(255, 255, 255, 0) url(/assets/svg/cart-icon-hover.svg)
+    no-repeat center;
+  /* outline: 1px solid rgba(105, 189, 174, 1); */
+}
+
+/* ------------------above navbar / below headline-------------------------- */
+.headline {
+  height: 30px;
+  background-color: rgba(105, 189, 174, 1);
+  color: rgb(255, 251, 245);
+  height: 7vh;
+  /* border: 1px solid red; */
+}
