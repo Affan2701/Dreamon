@@ -53,14 +53,17 @@ body {
 }
 .option {
   padding: 1vh 15px;
-  margin: 5px;
+  margin: 5px 0px;
   background-color: white;
   color: rgba(91, 88, 88, 1);
   font-size: 2vh;
   /* border: 1px solid red; */
 }
 .option:hover {
-  color: #222222;
+  color: rgba(105, 189, 174, 1);
+}
+.option:active {
+  color: rgb(99, 99, 99);
 }
 .profile {
   /* border: 1px solid gray; */
