@@ -8,14 +8,16 @@
     justify-tracks: center;
     /* overflow-x: hidden; */
   }
+  .landingscreen {
+    font-size: 25px;
+  }
   .introducing {
     width: 90%;
   }
-
   .vari {
     height: 100px;
     /* border: 1px solid red; */
-    width: 350px;
+    width: 50%;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -25,7 +27,7 @@
   }
   .v0,
   .v1 {
-    width: 320px;
+    width: 280px;
     height: 260px;
     /* border: 1px solid rebeccapurple; */
   }
@@ -42,5 +44,25 @@
     width: 80%;
     border-radius: 15px;
     border: 1px solid rgba(128, 128, 128, 0.281);
+  }
+  .partner {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 70%;
+    margin: 30px auto;
+    border: 1px solid red;
+  }
+  .Dreamonp {
+    height: 40px;
+    width: auto;
+    padding: 20px 10px;
+  }
+  .Edventurepark {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+  }
+  .about {
+    margin-bottom: 55px;
   }
 }

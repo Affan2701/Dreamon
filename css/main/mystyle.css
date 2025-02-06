@@ -10,9 +10,11 @@ body {
   margin: auto;
   outline: 1px solid rgba(163, 163, 163, 0.13);
   font-family: 'Montserrat', serif;
+  /* border: 1px solid red; */
 }
 .bgcolor {
   background-color: rgb(255, 251, 245);
+  /* border: 1px solid rebeccapurple; */
 }
 
 /* -------------------above headline / below tagline------------------------ */
@@ -24,6 +26,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  /* border: 1px solid red; */
 }
 .weare {
   text-align: center;
@@ -53,6 +56,7 @@ body {
   font-size: 50px;
   align-content: center;
   color: gainsboro;
+  /* border: 1px solid red; */
 }
 /* --------------------------------introducing------------------------------- */
 .introducing {
@@ -84,27 +88,29 @@ body {
 /* ---------------------------------sleepsound---------------------------------- */
 .headline1 {
   width: 60vw;
-  /* border: 1px solid #222222; */
+  /* border: 1px solid #ff0303; */
   text-align: center;
   margin: 30px auto -20px;
   font-weight: 600;
-  font-size: 4vh;
+  font-size: 20px;
 }
 b {
   color: rgba(105, 189, 174, 1);
   font-weight: 600;
 }
 .stitle {
-  max-width: 25vw;
+  max-width: 150px;
   margin: 30px auto;
   display: flex;
   justify-content: center;
+  /* border: 1px solid red; */
 }
 .sleepsounds {
   margin-bottom: 15px;
 }
 .sleepsound img {
-  max-width: 15vw;
+  max-width: 100px;
+  /* border: 1px solid red; */
 }
 .sounds {
   /* border: 1px solid red; */
@@ -115,7 +121,7 @@ b {
 }
 .line1,
 .line2 {
-  /* border: 1px solid violet; */
+  /* border: 1px solid rgb(255, 3, 3); */
   display: flex;
   justify-content: center;
 }
@@ -179,7 +185,8 @@ a.v-button {
 
 /* ------------------------------------sleepmedia------------------------------- */
 .grid {
-  height: 90vh; /* border: 1px solid red; */
+  height: 90vh;
+  /* border: 1px solid red; */
   display: grid;
   text-align: center;
   grid-template-columns: repeat(4, 1fr);
@@ -218,9 +225,6 @@ a.v-button {
   background: white;
 }
 /* ----------------------------------store---------------------------------- */
-.store {
-  /* border: 1px solid red; */
-}
 .vari {
   display: flex;
   justify-content: center;
