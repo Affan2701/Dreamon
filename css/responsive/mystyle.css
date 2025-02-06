@@ -1,6 +1,15 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   * {
     scroll-behavior: smooth;
+  }
+  body {
+    /* border: 1px solid red; */
+    margin: 2px;
+    justify-tracks: center;
+    overflow-x: hidden;
+  }
+  .introducing {
+    width: 75vw;
   }
   .vari {
     height: 100px;
@@ -17,5 +26,19 @@
     width: 40%;
     height: 20%;
     /* border: 1px solid rebeccapurple; */
+  }
+  .line1,
+  .line2 {
+    display: inline;
+  }
+  .line2 {
+    margin-top: -15px;
+  }
+  .sound1 {
+    background-color: rgb(255, 255, 255);
+    margin: 15px auto;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.281);
   }
 }

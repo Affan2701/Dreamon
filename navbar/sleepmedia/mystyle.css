@@ -1,4 +1,4 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   .shome,
   .shome:hover {
     background: #ffffff url(/assets/svg/home-icon.svg) no-repeat center;
