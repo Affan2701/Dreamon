@@ -10,6 +10,7 @@ body {
   margin: auto;
   outline: 1px solid rgba(163, 163, 163, 0.13);
   font-family: 'Montserrat', serif;
+  overflow-x:hidden;
 }
 .bgcolor {
   background-color: rgb(255, 251, 245);
