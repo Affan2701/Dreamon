@@ -35,10 +35,15 @@ body {
 .cta {
   /* border: 1px solid rgb(168, 168, 168); */
   background-color: rgba(209, 234, 230, 1);
-  height: 4vh;
-  max-width: 6vw;
+  max-width: 100px;
   border-radius: 30px;
   margin: 30px auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(149, 42, 255);
+  text-align: center;
+  height: 50px;
 }
 /* -----------------  -above tagline / below landing video------------------ */
 .landingscreen {
@@ -126,13 +131,6 @@ b {
 }
 /* ------------------------------------cta------------------------------------ */
 
-.cta {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(149, 42, 255);
-  text-align: center;
-  height: 50px;
   /* border: 1px solid red; */
 }
 /* .explore { 
