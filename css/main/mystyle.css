@@ -126,8 +126,17 @@ b {
 }
 /* ------------------------------------cta------------------------------------ */
 
-.explore {
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(149, 42, 255);
+  text-align: center;
+  height: 50px;
   /* border: 1px solid red; */
+}
+/* .explore { 
+  border: 1px solid red;
   width: 20vw;
   margin: 25px auto;
   display: flex;
@@ -150,12 +159,12 @@ a.cta-button {
   width: 30vw;
   display: flex;
   justify-content: center;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   position: relative;
   bottom: 2px;
 }
 a.v-button {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   text-align: center;
   width: 9vw;
   height: 3.5vh;
@@ -167,6 +176,7 @@ a.v-button {
   color: black;
   margin: 20px;
 }
+  */
 
 /* ------------------------------------sleepmedia------------------------------- */
 .grid {
