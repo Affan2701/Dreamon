@@ -3,7 +3,7 @@
   background-image: linear-gradient(rgb(255, 251, 245), rgb(255, 255, 255));
   padding: 10px;
   position:fixed;
-  top: -1px;
+  top: -5px;
   z-index: 1;
   /* border: 1px solid green; */
   display: flex;
