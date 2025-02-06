@@ -6,7 +6,7 @@
     /* border: 1px solid red; */
     margin: 2px;
     justify-tracks: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .introducing {
     width: 75vw;
@@ -14,7 +14,7 @@
   .vari {
     height: 100px;
     /* border: 1px solid red; */
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
