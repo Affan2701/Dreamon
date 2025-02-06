@@ -1,0 +1,44 @@
+@media only screen and (max-width: 750px) {
+  .navbar {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    box-shadow: 0px -1px 3cap rgba(202, 202, 202, 0.418);
+    border-radius: 0px;
+    margin: 0px auto;
+    height: 60px;
+    /* border: 1px solid red; */
+  }
+  .mainbar {
+    padding: 0px;
+    z-index: 3;
+  }
+
+  .options {
+    height: 55px;
+  }
+  .shome {
+    background: #ffffff url(/assets/svg/home-icon-hover.svg) no-repeat center;
+    width: 50px;
+  }
+  .smedia,
+  .smedia:hover {
+    background: #ffffff url(/assets/svg/sleepmedia-icon.svg) no-repeat center;
+    width: 50px;
+  }
+  .ssound,
+  .ssound:hover {
+    background: #ffffff url(/assets/svg/sleepsound-icon.svg) no-repeat center;
+    width: 50px;
+  }
+  .sstore,
+  .sstore:hover {
+    background: #ffffff url(/assets/svg/store-icon.svg) no-repeat center;
+    width: 50px;
+  }
+  .sabout,
+  .sabout:hover {
+    background: #ffffff url(/assets/svg/about-icon.svg) no-repeat center;
+    width: 50px;
+  }
+}
