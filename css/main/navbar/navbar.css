@@ -32,6 +32,7 @@
   height: 60px;
   width: 210px;
   background: #ffffff url(/assets/svg/dreamon-logo.svg) no-repeat center;
+  margin: 0px 15px;
   /* border: 1px solid red; */
 }
 
