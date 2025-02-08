@@ -119,7 +119,7 @@ li.completed {
   position: absolute;
   right: 9px;
   border-radius: 50px;
-  box-shadow: 1px 1px 3px black;
+/*   box-shadow: 1px 1px 3px black; */
   overflow: auto;
 }
 
