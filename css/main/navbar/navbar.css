@@ -1,0 +1,129 @@
+/* ------------------------below navbar------------------------------------- */
+.mainbar {
+  background-image: linear-gradient(rgb(255, 251, 245), rgb(255, 255, 255));
+  padding: 10px;
+  position: sticky;
+  top: -5px;
+  z-index: 1;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  height: 75px;
+  width: 95%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  align-content: center;
+}
+.options {
+  background-color: white;
+  padding: 3px 10px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.shome {
+  height: 60px;
+  width: 210px;
+  background: #ffffff url(/assets/svg/dreamon-logo.svg) no-repeat center;
+  margin: 0px 15px;
+  /* border: 1px solid red; */
+}
+
+.smedia {
+  background: rgb(255, 255, 255) url(/assets/svg/SleepMedia-word-icon.svg)
+    no-repeat center;
+  height: 60px;
+  width: 110px;
+  margin: 0px 15px;
+  /* border: 1px solid red; */
+}
+.smedia:hover {
+  background: rgb(255, 255, 255) url(/assets/svg/SleepMedia-word-icon-hover.svg)
+    no-repeat center;
+}
+.ssound {
+  background: rgb(255, 255, 255) url(/assets/svg/SleepSound-word-icon.svg)
+    no-repeat center;
+  height: 60px;
+  width: 113px;
+  margin: 0px 15px;
+  /* border: 1px solid red; */
+}
+.ssound:hover {
+  background: rgb(255, 255, 255) url(/assets/svg/SleepSound-word-icon-hover.svg)
+    no-repeat center;
+}
+.sstore {
+  background: rgb(255, 255, 255) url(/assets/svg/Store-word-icon.svg) no-repeat
+    center;
+  height: 60px;
+  width: 52px;
+  margin: 0px 15px;
+  /* border: 1px solid red; */
+}
+.sstore:hover {
+  background: rgb(255, 255, 255) url(/assets/svg/Store-word-icon-hover.svg)
+    no-repeat center;
+}
+.sabout {
+  background: rgb(255, 255, 255) url(/assets/svg/About-word-icon.svg) no-repeat
+    center;
+  height: 60px;
+  width: 60px;
+  margin: 0px 15px;
+  /* border: 1px solid red; */
+}
+.sabout:hover {
+  background: rgb(255, 255, 255) url(/assets/svg/About-word-icon-hover.svg)
+    no-repeat center;
+}
+.profile {
+  /* border: 1px solid gray; */
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  right: 5vw;
+  z-index: 1;
+  background: white url(/assets/svg/profile-icon.svg) no-repeat center;
+  opacity: 0.5;
+  margin: 1vw;
+}
+.profile:hover {
+  /* border: 1px solid rgba(105, 189, 174, 1); */
+  background: rgba(255, 255, 255, 0) url(/assets/svg/profile-icon-hover.svg)
+    no-repeat center;
+  opacity: 1;
+}
+.cart {
+  /* border: 1px solid gray; */
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  position: absolute;
+  right: 1vw;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0) url(/assets/svg/cart-icon.svg) no-repeat
+    center;
+  margin: 1vw;
+}
+.cart:hover {
+  background: rgba(255, 255, 255, 0) url(/assets/svg/cart-icon-hover.svg)
+    no-repeat center;
+  /* outline: 1px solid rgba(105, 189, 174, 1); */
+}
+/* ------------------above navbar / below headline-------------------------- */
+.headline {
+  height: 30px;
+  background-color: rgba(105, 189, 174, 1);
+  color: rgb(255, 251, 245);
+  height: 7vh;
+  /* border: 1px solid red; */
+}

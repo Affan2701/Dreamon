@@ -1,0 +1,68 @@
+@media only screen and (max-width: 800px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar {
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    box-shadow: 0px -1px 3cap rgba(202, 202, 202, 0.418);
+    border-radius: 0px;
+    /* margin: 0px auto; */
+    height: 60px;
+    /* border: 1px solid rgb(0, 255, 76); */
+  }
+  .mainbar {
+    padding: 0px;
+    margin: 0;
+    height: 0px;
+    /* border: 1px solid rgb(0, 255, 76); */
+  }
+
+  .options {
+    height: 48px;
+    position: fixed;
+    bottom: 3px;
+    /* border: 1px solid rgb(0, 26, 255); */
+    /* align-self: center; */
+    /* padding: auto; */
+  }
+  /* .option {
+    margin: auto 30px;
+  } */
+  .shome {
+    background: #ffffff url(/assets/svg/home-icon-hover.svg) no-repeat center;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(255, 8, 0); */
+  }
+  .smedia,
+  .smedia:hover {
+    background: #ffffff url(/assets/svg/sleepmedia-icon.svg) no-repeat center;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(255, 8, 0); */
+  }
+  .ssound,
+  .ssound:hover {
+    background: #ffffff url(/assets/svg/sleepsound-icon.svg) no-repeat center;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(255, 8, 0); */
+  }
+  .sstore,
+  .sstore:hover {
+    background: #ffffff url(/assets/svg/store-icon.svg) no-repeat center;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(255, 8, 0); */
+  }
+  .sabout,
+  .sabout:hover {
+    background: #ffffff url(/assets/svg/about-icon.svg) no-repeat center;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(255, 8, 0); */
+  }
+}
