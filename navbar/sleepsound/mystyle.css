@@ -1,0 +1,105 @@
+.ssound {
+  background: white url(/assets/svg/SleepSound-word-icon-hover.svg) no-repeat
+    center;
+  border-bottom: 2px solid rgb(78, 221, 178);
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------ */
+
+body {
+  /* background-color: rgb(255, 251, 245); */
+  max-width: 1500px;
+  margin: auto;
+  outline: 1px solid rgba(163, 163, 163, 0.13);
+  font-family: 'Montserrat', serif;
+  /* border: 1px solid red; */
+}
+.bgcolor {
+  background-color: rgb(255, 251, 245);
+  /* border: 1px solid rebeccapurple; */
+}
+.sleepsound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid rgb(0, 89, 255); */
+}
+.soundheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  /* border: 1px solid pink; */
+}
+.soundheading img {
+  /* border: 1px solid green; */
+  height: 100px;
+  margin: 10px;
+  justify-self: center;
+  /* align-self: center; */
+}
+.soundcontainer {
+  border: 1px solid rgba(180, 180, 180, 0.562);
+  /* max-width: 1400px; */
+  /* height: 80vh; */
+  align-self: center;
+  margin: 0px 10px 20px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(250, 244, 235); */
+  border-radius: 70px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233); */
+  padding-top: 25px;
+  transition: box-shadow 2s, background-color 2s;
+}
+.soundcontainer:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+  background-color: rgb(255, 255, 255);
+}
+.sound {
+  height: 254px;
+  width: 222px;
+  border-radius: 40px;
+  /* background-color: aliceblue; */
+  /* outline: 2px solid rgba(99, 99, 99, 0.459); */
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  transition: outline 1s, box-shadow 0.5s;
+}
+.sound:hover {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.233);
+}
+.copyrights {
+  /* border: 1px solid red; */
+  text-align: center;
+  color: rgb(197, 197, 197);
+  margin: 20px 40px;
+  padding: 10px;
+  border-top: 1px solid rgb(197, 197, 197);
+}
+.thumbnail {
+  /* border: 1px solid rgb(255, 0, 0); */
+  background: white url(/assets/images/istockphoto-517188688-612x612.jpg)
+    no-repeat center;
+  width: 222px;
+  height: 200px;
+  border-radius: 40px 40px 0px 0px;
+}
+audio {
+  position: absolute;
+  width: 220px;
+  background-color: rgba(242, 243, 245, 1);
+  /* border: 1px solid red; */
+  font-size: 2px;
+  height: 54px;
+  border-radius: 0px 0px 40px 40px;
+  transition: width 1s, border 1s;
+  align-self: self-end;
+}
+audio:hover {
+  width: 280px;
+  /* border-radius: 50px; */
+}

@@ -1,0 +1,68 @@
+.smedia {
+  background: white url(/assets/svg/SleepMedia-word-icon-hover.svg) no-repeat
+    center;
+  border-bottom: 2px solid rgb(78, 221, 178);
+}
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 800px) {
+  .shome,
+  .shome:hover {
+    background: #ffffff url(/assets/svg/home-icon.svg) no-repeat center;
+    width: 50px;
+  }
+  .smedia,
+  .smedia:hover {
+    background: #ffffff url(/assets/svg/sleepmedia-icon-hover.svg) no-repeat
+      center;
+    width: 50px;
+  }
+}
+
+/* --------------------------------------------------------------------------------- */
+
+body {
+  /* background-color: rgb(255, 251, 245); */
+  max-width: 1500px;
+  margin: auto;
+  outline: 1px solid rgba(163, 163, 163, 0.13);
+  font-family: 'Montserrat', serif;
+  /* border: 1px solid red; */
+}
+.bgcolor {
+  background-color: rgb(255, 251, 245);
+  /* border: 1px solid rebeccapurple; */
+}
+.sleepmedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid rgb(0, 89, 255); */
+}
+.mediaheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  /* border: 1px solid pink; */
+}
+.mediaheading img {
+  /* border: 1px solid green; */
+  margin: 10px;
+  justify-self: center;
+  /* align-self: center; */
+}
+.mediacontainer {
+  /* border: 1px solid red; */
+  max-width: 1400px;
+  height: 80vh;
+  align-self: center;
+  margin: 0px 10px 20px 10px;
+}
+.copyrights {
+  /* border: 1px solid red; */
+  text-align: center;
+  color: rgb(197, 197, 197);
+  margin: 20px 40px;
+  padding: 10px;
+  border-top: 1px solid rgb(197, 197, 197);
+}

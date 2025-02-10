@@ -1,0 +1,64 @@
+@media only screen and (max-width: 800px) {
+  .navbar {
+    z-index: 1;
+  }
+  .headline {
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.233);
+  }
+  .shome,
+  .shome:hover {
+    background: #ffffff url(/assets/svg/home-icon.svg) no-repeat center;
+    width: 50px;
+  }
+  .ssound,
+  .ssound:hover {
+    background: #ffffff url(/assets/svg/sleepsound-icon-hover.svg) no-repeat
+      center;
+    width: 50px;
+  }
+  .soundheading img {
+    height: 50px;
+  }
+  .sound {
+    height: 50px;
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 243, 245, 1);
+  }
+  .soundcontainer {
+    border-radius: 4px;
+    background-color: white;
+    width: 95%;
+    border-radius: 44px 44px 4px 4px;
+    margin-bottom: 20px;
+  }
+  .thumbnail {
+    z-index: 0;
+    border-radius: 3px;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+  }
+  audio {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  audio,
+  audio:hover {
+    width: 55%;
+    margin-right: 5px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  audio,
+  audio:hover {
+    width: 50%;
+    margin-right: 15px;
+  }
+}
